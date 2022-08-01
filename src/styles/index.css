@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bullet-style {
+    @apply flex-none w-3.5 h-3.5 rounded-full bg-fuchsia-600 mt-1.5
+}
